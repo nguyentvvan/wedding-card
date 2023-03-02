@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Images from '../constants/images';
-import './Banner.css';
+import './Banner.scss';
 
 export default function Banner() {
 	return (

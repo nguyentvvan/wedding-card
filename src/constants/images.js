@@ -1,8 +1,6 @@
-import bannerBackground from 'assets/images/orange-bg.jpg';
-import ring from 'assets/images/ring.png';
+import ring from '../assets/img/ring.png';
 
 const Images = {
-  BANNER_BG: bannerBackground,
 	RING: ring,
 }
 
