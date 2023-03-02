@@ -1,5 +1,6 @@
 $banner-height: 600px;
 .banner {
+	position: relative;
 	height: $banner-height;
 	display: flex;
 	justify-content: center;
@@ -39,7 +40,6 @@ $banner-height: 600px;
 		text-align: center;
 		font-weight: 600;
 		color: white;
-		font-family: 'Questrial', sans-serif;
 		hr {
 			color: white;
 			opacity: 0.5;

@@ -1,0 +1,28 @@
+.account-info {
+	height: 550px;
+	position: relative;
+	&::before {
+		content: ' ';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.3;
+		background-image: url(../assets/img/bg-bottom.jpeg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	&-content {
+		position: relative;
+		padding-top: 30px;
+		margin: auto;
+		img.love-birds {
+			width: 50%;
+		}
+		img.bank-account {
+			width: 30%;
+		}
+	}
+}
